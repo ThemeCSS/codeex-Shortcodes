@@ -71,13 +71,4 @@
 		return $typo_content;
 	}
 	add_filter('the_content', 'typo_shortcode_empty_paragraph_fix');
-
-
-	function typo_content_filter($typo_content) {	 
-		$typo_block = join("|",array("alert","blockquote","a","ul","li","div","dropcap","columns","image","tabgroup","tab","toggle","video","googlemap"));	 
-		$typo_rep = preg_replace("/(<p>)?\[($typo_block)(\s[^\]]+)?\](<\/p>|<br \/>)?/","[$2$3]",$typo_content);			
-		$typo_rep = preg_replace("/(<p>)?\[\/($typo_block)](<\/p>|<br \/>)?/","[/$2]",$typo_rep);	 
-		return $typo_rep;	 
-	}
-	add_filter("the_content", "typo_content_filter"); 
 ?>
