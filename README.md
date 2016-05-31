@@ -1,5 +1,5 @@
 # codeex-Shortcodes
 A simple, minimalist typography shortcode plugin
 
-# Updates
+## Updates
 ** Current version 2.1.0 **
