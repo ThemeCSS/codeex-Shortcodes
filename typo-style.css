@@ -801,68 +801,6 @@ pre {
 
 
 /*--------------------
-Responsive Styles
---------------------*/
-
-@media only screen and (max-width: 1200px) {
-  iframe { width: 100%; height: 400px; }
-  .typo_one-third { width: 29%; }
-  .typo_one-fourth { width: 21%; }
-  .typo_one-half-box { width: 41.7%; }
-  .typo_one-third-box { width: 24.5%; }
-  .typo_two-third-box { width: 58.9%; }
-  .typo_one-fourth-box { width: 15.8%; }
-  .typo_three-fourth-box { width: 67.5%; }
-}
-@media only screen and (max-width: 960px) {
-  iframe { height:300px; }
-  .typo_one-half { width:46%; }
-  .typo_one-third { width:28%; }
-  .typo_one-fourth { width:20%; }
-  .typo_default label, 
-  .typo_callout2 label, 
-  .typo_callout3 label { width: 65%; }
-  .typo_one-half-box { width: 37.5%; }
-  .typo_one-third-box { width: 20%; }
-  .typo_two-third-box { width: 55%; }
-  .typo_one-fourth-box { width: 11.2%; }
-  .typo_three-fourth-box { width: 63.6%; }
-}
-@media only screen and (max-width: 760px) {
-  iframe { height:200px; }
-  .typo_one-half, 
-  .typo_one-third, 
-  .typo_one-fourth, 
-  .typo_two-third, 
-  .typo_three-fourth,
-  .typo_default label, 
-  .typo_callout2 label, 
-  .typo_callout3 label,
-  blockquote.typo_qleft, 
-  blockquote.typo_qleft_border, 
-  blockquote.typo_qright_border { width:100%; }
-  blockquote.typo_qright { width: auto; }
-  .typo_default label, 
-  .typo_callout2 label, 
-  .typo_callout3 label { margin-bottom: 20px; display: block; }
-  .typo_one-half-box, 
-  .typo_one-third-box, 
-  .typo_two-third-box, 
-  .typo_one-fourth-box, 
-  .typo_three-fourth-box { width: 270px; }
-  .tab-menu li { float: none !important; }
-}
-@media only screen and (max-width: 450px) {
-  iframe { height:200px; }
-  .typo_one-half-box, 
-  .typo_one-third-box, 
-  .typo_two-third-box, 
-  .typo_one-fourth-box, 
-  .typo_three-fourth-box { width: 190px; }
-}
-
-
-/*--------------------
 jQuery Styles
 --------------------*/
 
@@ -1086,3 +1024,65 @@ h4.active a:before {
 .skillbar-bar.typo_purple { background: #E943A5; }
 .skillbar-bar.typo_blue { background: #499FE1; }
 .skillbar-bar.typo_orange { background: #ff5a00; }
+
+
+/*--------------------
+Responsive Styles
+--------------------*/
+
+@media only screen and (max-width: 1200px) {
+  iframe { width: 100%; height: 400px; }
+  .typo_one-third { width: 29%; }
+  .typo_one-fourth { width: 21%; }
+  .typo_one-half.typo_boxed { width: 41.7%; }
+  .typo_one-third.typo_boxed { width: 24.5%; }
+  .typo_two-third.typo_boxed { width: 58.9%; }
+  .typo_one-fourth.typo_boxed { width: 15.8%; }
+  .typo_three-fourth.typo_boxed { width: 67.5%; }
+}
+@media only screen and (max-width: 960px) {
+  iframe { height:300px; }
+  .typo_one-half { width:46%; }
+  .typo_one-third { width:28%; }
+  .typo_one-fourth { width:20%; }
+  .typo_default label, 
+  .typo_callout2 label, 
+  .typo_callout3 label { width: 65%; }
+  .typo_one-half.typo_boxed { width: 37.5%; }
+  .typo_one-third.typo_boxed { width: 20%; }
+  .typo_two-third.typo_boxed { width: 55%; }
+  .typo_one-fourth.typo_boxed { width: 11.2%; }
+  .typo_three-fourth.typo_boxed { width: 63.6%; }
+}
+@media only screen and (max-width: 760px) {
+  iframe { height:200px; }
+  .typo_one-half, 
+  .typo_one-third, 
+  .typo_one-fourth, 
+  .typo_two-third, 
+  .typo_three-fourth,
+  .typo_default label, 
+  .typo_callout2 label, 
+  .typo_callout3 label,
+  blockquote.typo_qleft, 
+  blockquote.typo_qleft_border, 
+  blockquote.typo_qright_border { width:100%; }
+  blockquote.typo_qright { width: auto; }
+  .typo_default label, 
+  .typo_callout2 label, 
+  .typo_callout3 label { margin-bottom: 20px; display: block; }
+  .typo_one-half.typo_boxed, 
+  .typo_one-third.typo_boxed, 
+  .typo_two-third.typo_boxed, 
+  .typo_one-fourth.typo_boxed, 
+  .typo_three-fourth.typo_boxed { width: 270px; }
+  .tab-menu li { float: none !important; }
+}
+@media only screen and (max-width: 450px) {
+  iframe { height:200px; }
+  .typo_one-half.typo_boxed, 
+  .typo_one-third.typo_boxed, 
+  .typo_two-third.typo_boxed, 
+  .typo_one-fourth.typo_boxed, 
+  .typo_three-fourth.typo_boxed { width: 190px; }
+}
