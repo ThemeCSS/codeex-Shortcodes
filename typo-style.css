@@ -484,7 +484,7 @@ List Icons
   float: none !important; 
   margin-left: 0 !important; 
   text-indent: 0 !important; 
-  padding-left: 30px; 
+  padding-left: 20px; 
   position: relative; 
   list-style: none !important; 
 } 
@@ -494,35 +494,25 @@ List Icons
 Columns
 --------------------*/
 
-.typo_one-half, 
-.typo_one-half-box,
-.typo_one-third, 
-.typo_one-third-box,
-.typo_two-third, 
-.typo_two-third-box,
+.typo_one-half,
+.typo_one-third,
+.typo_two-third,
 .typo_one-fourth, 
-.typo_one-fourth-box,
-.typo_three-fourth, 
-.typo_three-fourth-box {
+.typo_three-fourth {
   float: left; 
   margin-right: 30px; 
   margin-bottom: 30px; 
 }
-.typo_one-half, 
-.typo_one-half-box { width: 48%; }
-.typo_one-third, 
-.typo_one-third-box { width: 30%; }
-.typo_two-third, 
-.typo_two-third-box { width: 65%; }
-.typo_one-fourth, 
-.typo_one-fourth-box { width: 22%; } 
-.typo_three-fourth, 
-.typo_three-fourth-box { width: 75%; } 
+.typo_one-half { width: 48%; }
+.typo_one-third { width: 30%; }
+.typo_two-third { width: 65%; }
+.typo_one-fourth { width: 22%; } 
+.typo_three-fourth { width: 75%; } 
 .typo_boxed { 
-  width: 43%; 
   padding: 30px; 
   background: #EEE; 
 }
+.typo_one-half.typo_boxed { width: 43%; }
 .typo_one-third.typo_boxed { width: 25.9%; }
 .typo_two-third.typo_boxed { width: 60%; }
 .typo_one-fourth.typo_boxed { width: 17.3%; }
@@ -1066,7 +1056,10 @@ Responsive Styles
   .typo_callout3 label,
   blockquote.typo_qleft, 
   blockquote.typo_qleft_border, 
-  blockquote.typo_qright_border { width:100%; }
+  blockquote.typo_qright_border { 
+    width:100%; 
+    margin-right: 0;
+  }
   blockquote.typo_qright { width: auto; }
   .typo_default label, 
   .typo_callout2 label, 
