@@ -1,11 +1,11 @@
 <?php
 	/*
 	Plugin Name: codeex Shortcodes
-	Plugin URI: http://themeforest.net/user/codeex
-	Description: A simple, minimalist typography shortcode for your themes and website.
-	Version: 2.1.0
+	Plugin URI: https://github.com/ThemeCSS/codeex-Shortcodes
+	Description: Simple and minimalist typography shortcode plugin for WordPress Themes.
+	Version: 2.1.1
 	Author: codeex	
-	Author URI: http://themeforest.net/user/codeex
+	Author URI: http://themecss.com
 	License: GPL
 	*/
 
@@ -42,7 +42,7 @@
 	-------------------------*/
 
 	function typo_load_textdomain() {
-	    load_plugin_textdomain( 'typo_codeex_plugin', false, basename( dirname( __FILE__ ) ) . '/languages' );
+	  load_plugin_textdomain( 'typo_codeex_plugin', false, basename( dirname( __FILE__ ) ) . '/languages' );
 	}
 	add_action( 'plugins_loaded', 'typo_load_textdomain' );
 
@@ -52,7 +52,11 @@
 	-------------------------*/
 
 	function typo_my_custom_quicktags() {
-		wp_enqueue_script( 'typo_my_custom_quicktags', plugin_dir_url(__FILE__) . 'inc/tinymce/quicktags.js', array('quicktags')	);
+		wp_enqueue_script( 
+			'typo_my_custom_quicktags', 
+			plugin_dir_url(__FILE__) . 'inc/tinymce/quicktags.js', 
+			array('quicktags')	
+		);
 	}
 	add_action('admin_print_scripts', 'typo_my_custom_quicktags');
 
@@ -62,13 +66,22 @@
 	-------------------------*/
 
 	function typo_shortcode_empty_paragraph_fix($typo_content) {   
-	    $typo_array = array (
-	        '<p>[' => '[', 
-	        ']</p>' => ']', 
-	        ']<br />' => ']'
-	    );
-	    $typo_content = strtr($typo_content, $typo_array);
+    $typo_array = array (
+      '<p>[' => '[', 
+      ']</p>' => ']', 
+      ']<br />' => ']'
+    );
+    $typo_content = strtr($typo_content, $typo_array);
 		return $typo_content;
 	}
 	add_filter('the_content', 'typo_shortcode_empty_paragraph_fix');
+
+
+	function typo_content_filter($typo_content) {	 
+		$typo_block = join("|",array("alert","blockquote","a","ul","li","div","dropcap","columns","image","tabgroup","tab","toggle","video","googlemap", "skills"));	 
+		$typo_rep = preg_replace("/(<p>)?\[($typo_block)(\s[^\]]+)?\](<\/p>|<br \/>)?/","[$2$3]",$typo_content);			
+		$typo_rep = preg_replace("/(<p>)?\[\/($typo_block)](<\/p>|<br \/>)?/","[/$2]",$typo_rep);	 
+		return $typo_rep;	 
+	}
+	add_filter("the_content", "typo_content_filter"); 
 ?>
