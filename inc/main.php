@@ -104,7 +104,7 @@
 	function typo_clear($atts, $content=null) {
     extract(
     	shortcode_atts(array(
-    		'style' => 'clear'
+    		'style' => 'clearfix'
     	), $atts)
     );
 
@@ -169,7 +169,7 @@
 				$panes[] = '<div id="'.$tab['anchor'].'" class="tab-content">'.$tab['content'].'</div>';
 			endforeach;
 
-			$out = "\n".'<ul class="tab-menu clear">'.implode( "\n", $tabs ).'</ul>'."\n".'<div class="tab-container">'.implode( "\n", $panes ).'</div>'."\n";
+			$out = "\n".'<ul class="tab-menu clearfix">'.implode( "\n", $tabs ).'</ul>'."\n".'<div class="tab-container">'.implode( "\n", $panes ).'</div>'."\n";
 		endif;
 
 		return $out;
@@ -199,7 +199,7 @@
 	function typo_toggle_shortcode( $atts, $content = null ) {
 		extract( 
 			shortcode_atts(array(
-				'title' => ''
+				'title' => '',
 			), $atts)
 		);
 
@@ -319,7 +319,7 @@
 			), $atts)
 		);
 
-		$out = "<div class='skillbar clear' data-percent='". $percent ."%'><div class='skillbar-title'><span>". do_shortcode($content) ."</span></div><div class='skillbar-bar ". $color ."'></div><div class='skill-bar-percent'>". $percent ."%</div></div>";
+		$out = "<div class='skillbar clearfix' data-percent='". $percent ."%'><div class='skillbar-title'><span>". do_shortcode($content) ."</span></div><div class='skillbar-bar ". $color ."'></div><div class='skill-bar-percent'>". $percent ."%</div></div>";
 		
 		return $out;
 	}
