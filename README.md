@@ -3,33 +3,33 @@ Simple and minimalist typography shortcode plugin for WordPress Themes
 
 ## Sample Links
 
-** Alerts -> http://themecss.com/wp/Homeland/alert/ **
+** Alerts -> http://themecss.com/wp/Homeland/alert/ 
 
-** Blockquotes -> http://themecss.com/wp/Homeland/blockquotes/ **
+** Blockquotes -> http://themecss.com/wp/Homeland/blockquotes/ 
 
-** Buttons -> http://themecss.com/wp/Homeland/buttons/ **
+** Buttons -> http://themecss.com/wp/Homeland/buttons/ 
 
-** Callouts -> http://themecss.com/wp/Homeland/callouts/ **
+** Callouts -> http://themecss.com/wp/Homeland/callouts/ 
 
-** Columns -> http://themecss.com/wp/Homeland/columns/ **
+** Columns -> http://themecss.com/wp/Homeland/columns/ 
 
-** Dropcaps -> http://themecss.com/wp/Homeland/dropcaps/ **
+** Dropcaps -> http://themecss.com/wp/Homeland/dropcaps/ 
 
-** Google Map -> http://themecss.com/wp/Homeland/google-map/ **
+** Google Map -> http://themecss.com/wp/Homeland/google-map/ 
 
-** Images -> http://themecss.com/wp/Homeland/images/ **
+** Images -> http://themecss.com/wp/Homeland/images/ 
 
-** List Icons -> http://themecss.com/wp/Homeland/list-icons/ **
+** List Icons -> http://themecss.com/wp/Homeland/list-icons/ 
 
-** Skills Bar -> http://themecss.com/wp/Homeland/skills-bar/ **
+** Skills Bar -> http://themecss.com/wp/Homeland/skills-bar/ 
 
-** Social Icons -> http://themecss.com/wp/Homeland/social-icons/ **
+** Social Icons -> http://themecss.com/wp/Homeland/social-icons/ 
 
-** Tabs -> http://themecss.com/wp/Homeland/tabs/ **
+** Tabs -> http://themecss.com/wp/Homeland/tabs/ 
 
-** Toggles -> http://themecss.com/wp/Homeland/toggles/ **
+** Toggles -> http://themecss.com/wp/Homeland/toggles/ 
 
-** Video -> http://themecss.com/wp/Homeland/video/ **
+** Video -> http://themecss.com/wp/Homeland/video/ 
 
 ## Changelog
 
