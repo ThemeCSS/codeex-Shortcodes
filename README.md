@@ -33,6 +33,10 @@ Simple and minimalist typography shortcode plugin for WordPress Themes
 
 ## Changelog
 
+** version 2.1.4 (08-22-2017) **
+
+** version 2.1.3 (07-01-2017) **
+
 ** version 2.1.2 (02-13-2017) **
 
 ** version 2.1.1 (09-27-2016) **
