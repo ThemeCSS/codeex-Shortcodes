@@ -208,4 +208,8 @@
 		return $out;
 	}
 	add_shortcode( 'typo_skills_bar', 'typo_skills_bar' );
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 9c6da89e823cd5d1b74f952e9b0f48594318c6d1
