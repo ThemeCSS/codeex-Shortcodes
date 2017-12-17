@@ -1,7 +1,7 @@
 # codeex Shortcodes
 Simple and minimalist typography shortcode plugin for WordPress Themes
 
-## Sample Links
+## Demo Links
 
 ** Alerts -> http://themecss.com/wp/Homeland/alert/ 
 
