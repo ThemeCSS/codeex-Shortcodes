@@ -25,8 +25,4 @@
 	}
 
 	add_action('init', 'typo_add_tinymce');		
-<<<<<<< HEAD
 ?>
-=======
-?>
->>>>>>> 9c6da89e823cd5d1b74f952e9b0f48594318c6d1
