@@ -3,7 +3,7 @@
 	Plugin Name: codeex Shortcodes
 	Plugin URI: https://github.com/ThemeCSS/codeex-Shortcodes
 	Description: Simple and minimalist typography shortcode plugin for WordPress Themes.
-	Version: 2.1.4
+	Version: 2.1.5
 	Author: codeex	
 	Author URI: https://themeforest.net/user/codeex
 	License: GPL

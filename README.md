@@ -3,35 +3,37 @@ Simple and minimalist typography shortcode plugin for WordPress Themes
 
 ## Demo Links
 
-** Alerts -> http://themecss.com/wp/Homeland/alert/ 
+** Alerts -> https://qbootstrap.com/wp/Homeland/alert/ 
 
-** Blockquotes -> http://themecss.com/wp/Homeland/blockquotes/ 
+** Blockquotes -> https://qbootstrap.com/wp/Homeland/blockquotes/ 
 
-** Buttons -> http://themecss.com/wp/Homeland/buttons/ 
+** Buttons -> https://qbootstrap.com/wp/Homeland/buttons/ 
 
-** Callouts -> http://themecss.com/wp/Homeland/callouts/ 
+** Callouts -> https://qbootstrap.com/wp/Homeland/callouts/ 
 
-** Columns -> http://themecss.com/wp/Homeland/columns/ 
+** Columns -> https://qbootstrap.com/wp/Homeland/columns/ 
 
-** Dropcaps -> http://themecss.com/wp/Homeland/dropcaps/ 
+** Dropcaps -> https://qbootstrap.com/wp/Homeland/dropcaps/ 
 
-** Google Map -> http://themecss.com/wp/Homeland/google-map/ 
+** Google Map -> https://qbootstrap.com/wp/Homeland/google-map/ 
 
-** Images -> http://themecss.com/wp/Homeland/images/ 
+** Images -> https://qbootstrap.com/wp/Homeland/images/ 
 
-** List Icons -> http://themecss.com/wp/Homeland/list-icons/ 
+** List Icons -> https://qbootstrap.com/wp/Homeland/list-icons/ 
 
-** Skills Bar -> http://themecss.com/wp/Homeland/skills-bar/ 
+** Skills Bar -> https://qbootstrap.com/wp/Homeland/skills-bar/ 
 
-** Social Icons -> http://themecss.com/wp/Homeland/social-icons/ 
+** Social Icons -> https://qbootstrap.com/wp/Homeland/social-icons/ 
 
-** Tabs -> http://themecss.com/wp/Homeland/tabs/ 
+** Tabs -> https://qbootstrap.com/wp/Homeland/tabs/ 
 
-** Toggles -> http://themecss.com/wp/Homeland/toggles/ 
+** Toggles -> https://qbootstrap.com/wp/Homeland/toggles/ 
 
-** Video -> http://themecss.com/wp/Homeland/video/ 
+** Video -> https://qbootstrap.com/wp/Homeland/video/ 
 
 ## Changelog
+
+** version 2.1.5 (01-10-2018) **
 
 ** version 2.1.4 (08-22-2017) **
 

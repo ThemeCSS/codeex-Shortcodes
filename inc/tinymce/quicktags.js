@@ -20,7 +20,7 @@ edButtons[edButtons.length] = new edButton( 'dropcaps', 'dropcaps', '[typo_dropc
 edButtons[edButtons.length] = new edButton( 'google map', 'google map', '[typo_googlemap src="https://maps.google.com/?ll=39.061849,-99.536133&spn=14.980005,33.815918&t=m&z=6" width="100%" height="400"]', '', '' );
 
 // Images
-edButtons[edButtons.length] = new edButton( 'image', 'image', '[typo_image src="http://wp.themecss.com/Source/wp-content/uploads/2012/12/bg.jpg" width="100%" height="auto" title="" style="resize"]', '', '' );
+edButtons[edButtons.length] = new edButton( 'image', 'image', '[typo_image src="https://qbootstrap.com/wp/Homeland/wp-content/uploads/2013/12/house_with_swimming_pool-wallpaper-1920x1200.jpg" width="100%" height="auto" title="" style="resize"]', '', '' );
 
 // Unordered List
 edButtons[edButtons.length] = new edButton( 'unordered list', 'unordered list', '[typo_ul style="typo_balloon"][typo_li]This is a sample text', '[/typo_li][/typo_ul]', '' );
